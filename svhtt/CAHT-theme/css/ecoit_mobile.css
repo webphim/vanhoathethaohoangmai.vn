@@ -1,0 +1,226 @@
+.icon_menudoc {
+  display: none !important;
+  width: 30px;
+  float: right;
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  margin-top: -13px;
+  cursor: pointer; }
+
+.box_header_style_2 ul {
+  width: 100%;
+  height: 0;
+  background: #00acff;
+  margin-top: 32px !important;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  position: absolute; }
+
+.box_header_style_2 ul li {
+  width: 100%;
+  text-align: right; }
+
+.box_header_style_2 ul li:not(:last-child) {
+  border-bottom: 1px solid #fff; }
+
+.nav-mobile {
+  width: 24px;
+  height: 24px;
+  float: right;
+  position: absolute;
+  right: 4px;
+  top: 50%;
+  margin-top: -12px;
+  background-image: url(../images/caht/icons/nav.png);
+  background-size: 100% 100%;
+  background-position: 0px 0px;
+  display: inline-block; }
+
+.nav-mobile:hover {
+  cursor: pointer; }
+
+@media (max-width: 1024px) {
+  #wrapper_ecoit {
+    width: auto !important;
+    overflow: hidden;
+    border: none; }
+
+  #page_ecoit section, #page_ecoit aside {
+    width: 100%; } }
+@media (max-width: 900px) {
+  section.newer_ecoit {
+    width: auto !important; }
+
+  .latest_new_ecoit, .latest_new_ecoit-2, .thumb_img_ecoit, .related_news_ecoit, .hot_news_ecoit {
+    width: 100% !important; }
+
+  .latest_new_ecoit h2 {
+    max-width: 100% !important;
+    /*width: 100% !important;*/ }
+
+  .latest_new_ecoit h2 a {
+    font: normal 18px/1.2 helvetica-idesignVn,arial !important;
+    text-align: left !important;
+    font-weight: bold !important; }
+
+  .latest_new_ecoit p {
+    max-width: 100%;
+    font: normal 14px/1.4 arial;
+    color: #4F4F4F; }
+
+  .box_news_ecoit {
+    margin-bottom: 5px !important;
+    margin-top: 1px !important;
+    width: 100% !important; }
+
+  .related_news_ecoit li {
+    padding: 4px 0px; }
+
+  .related_news_ecoit ul {
+    padding: 0px !important;
+    margin: 5px !important; }
+
+  .slide_news_ecoit {
+    display: none !important; }
+
+  .box_body_ecoit {
+    padding: 0px 10px 0px 10px !important; }
+
+  /*
+  	.box_header_style_2 ul{
+  		width: 100%;
+  		height: 0;
+  		background: #00acff;
+  		margin-top:32px !important;
+  		-webkit-transition: all 0.2s ease-out;
+  		-moz-transition: all 0.2s ease-out;
+  		-o-transition: all 0.2s ease-out;
+  		transition: all 0.2s ease-out;
+  		position: absolute;
+  	}
+  
+  	.box_header_style_2 ul li{
+  		width: 100%;
+  		text-align: right;
+                  		
+  	}
+  
+  	.box_header_style_2 ul li:not(:last-child){
+  		border-bottom: 1px solid #fff;
+  	}
+  */
+  .box_body_ecoit {
+    border: none !important;
+    margin-top: 6px !important; }
+
+  /*
+  	.nav-mobile{
+  		width: 24px;
+  		height: 24px;
+  		float: right;
+  		position: absolute;
+  		right: 4px;
+  		top: 50%;
+  		margin-top: -12px;
+  		background-image: url(../images/caht/icons/nav.png);
+  		background-size: 100% 100%;
+  		background-position: 0px 0px;
+  		display: inline-block;	
+  	}
+          .nav-mobile:hover{
+  		cursor: pointer;		
+  	}
+          */
+  #page_ecoit {
+    position: relative; }
+
+  .header_mobile_ecoit {
+    display: block;
+    position: fixed; }
+
+  nav#menu_main_ecoit ul li {
+    line-height: 44px;
+    height: 44px; }
+
+  .bg_black_ecoit {
+    display: none;
+    position: fixed;
+    background: #000;
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+    z-index: 1; }
+
+  nav#menu_main_ecoit {
+    width: 70%;
+    overflow: scroll;
+    position: absolute;
+    z-index: 2;
+    left: -80%;
+    height: 10%;
+    border-right: 2px solid #fff;
+    padding-bottom: 1000px; }
+
+  nav#menu_main_ecoit li {
+    width: 100%; }
+
+  nav#menu_main_ecoit li:not(:last-child) {
+    border-bottom: 1px solid #fff; }
+
+  nav#menu_main_ecoit li a {
+    border-right: none !important; }
+
+  header > img {
+    display: none; }
+
+  .header_mobile_ecoit {
+    width: 100%;
+    background: #ccc;
+    margin-bottom: 2px;
+    position: relative;
+    background: #449608; }
+
+  .header_mobile_ecoit img {
+    vertical-align: middle;
+    display: inline-block; }
+
+  .nav_btn_ecoit {
+    width: 32px;
+    float: right;
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    margin-top: -16px;
+    cursor: pointer; }
+
+  .bt_catht {
+    width: 15%; }
+
+  .text_catht {
+    width: 60%; }
+
+  .top_footer_ecoit {
+    display: none !important; }
+
+  .contact_footer_ecoit {
+    width: auto !important;
+    padding: 10px !important; }
+
+  .body_article img {
+    width: 100% !important; }
+
+  .content_ecoit * {
+    width: 100%; }
+
+  .disable-mobile {
+    display: none !important; }
+
+  .related_news_header_ecoit {
+    padding-left: 0 !important; } }
+@media (max-width: 767px) {
+  .icon_menudoc {
+    display: block !important; } }
+
